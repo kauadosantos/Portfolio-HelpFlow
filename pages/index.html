@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Help Flow | Produtos e Serviços</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1><span>Help</span>Flow</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Página inicial -->
+    <section id="inicio" class="inicio">
+        <div class="inicio-conteudo">
+            <h2>Soluções para você e sua empresa</h2>
+
+            <p>
+                A HelpFlow desenvolve soluções tecnológicas robustas e acessíveis para simplificar o gerenciamento operacional de microempreendedores e pequenos estabelecimentos, proporcionando mais organização, eficiência e segurança na gestão de informações.
+
+
+            </p>
+
+            <a href="#produtos" class="botao">
+                Conheça nossos Serviços
+            </a>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="secao">
+        <h2>Nossos Serviços</h2>
+
+        <p class="subtitulo">
+            Confira alguns dos serviços oferecidos pela empresa.
+        </p>
+
+        <div class="container-cards">
+
+            <div class="card">
+                <div class="icone">📦</div>
+                <h3>Controle de estoques</h3>
+                <p>
+                    Solução para acompanhar a quantidade de produtos disponíveis, controlar entradas e saídas e facilitar a reposição de mercadorias.
+
+
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">🛍️</div>
+                <h3>Cadastro de produtos</h3>
+                <p>
+                    Permite organizar informações dos produtos, como nome, código, descrição e quantidade, facilitando a consulta e a identificação dos itens.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">📝</div>
+                <h3>Gestão de inventário</h3>
+                <p>
+                    Auxilia na organização e conferência dos itens cadastrados, contribuindo para manter os registros de estoque atualizados.
+                </p>
+            </div>
+             <div class="card">
+                <div class="icone">📝</div>
+                <h3>Registros Operacionais</h3>
+                <p>
+                    Facilita o registro das atividades diárias do estabelecimento, mantendo informações organizadas para consultas futuras.
+                </p>
+            </div>
+            <div class="card">
+                <div class="icone">📊</div>
+                <h3>Relatorios e consultas</h3>
+                <p>
+                    Organiza informações sobre produtos e movimentações para facilitar o acompanhamento das operações e apoiar decisões administrativas.
+
+
+                </p>
+            </div>
+            <div class="card">
+                <div class="icone">🔐</div>
+                <h3>Segurança e integridade de dados</h3>
+                <p>
+                   Prioriza a organização e a consistência dos registros, com foco na proteção das informações e na confiabilidade dos dados armazenados.
+
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="secao contato">
+        <h2>Entre em Contato</h2>
+
+        <p class="subtitulo">
+            Tem alguma dúvida ou deseja solicitar um orçamento?
+            Envie sua mensagem!
+        </p>
+
+        <div class="contato-container">
+
+            <!-- Informações de contato -->
+            <div class="informacoes">
+
+                <h3>Informações da Empresa</h3>
+
+                <div class="informacao-item">
+                    <span>📱</span>
+                    <div>
+                        <h4>Telefone / WhatsApp</h4>
+                        <a href="https://wa.me/5511985459663"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            (11) 985459663
+                        </a>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>📧</span>
+                    <div>
+                        <h4>E-mail</h4>
+                        <a href="mailto:contato@helpflow.com.br">
+                            contato@helpflow.com.br
+                        </a>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>
+                            Rua das Flores, 123<br>
+                            Centro, São Paulo - SP<br>
+                            CEP: 01000-279
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Formulário -->
+            <div class="formulario">
+                <h3>Envie sua mensagem</h3>
+
+                <form id="form-contato">
+
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        placeholder="Digite sua mensagem"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+
+                    <p id="retorno" role="status" aria-live="polite"></p>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>
+            &copy; 2026 HelpFlow.
+            Todos os direitos reservados.
+        </p>
+
+        <p>Qualidade, confiança e tecnologia para você.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
