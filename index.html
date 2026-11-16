@@ -3,36 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Flow | Produtos e Serviços</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    <header class="Header">
+
+    
+    <header class="header">
         <h1><span>Help</span>Flow</h1>
 
-        <div class="Link">
-            <a href="/index.html">Home</a>
-            <a href="pages/sobre.html">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
-            <a href="#">Clientes</a>
-        </div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
-    <main class="container">
-        <div class="hero-title">
-            <h1 >Gerencie sua empresa </h1>
-
-            <h1 class="title-blue">Atendimentos, clientes</h1>
-        </div>
-        <div>
-            <img src="imagens/hero.svg" alt="Imagem hero">
-
-        </div>
-        
-
-
-    </main>
     
+    <section id="inicio" class="inicio">
+        <div class="inicio-conteudo">
+            <h2>Soluções para você e sua empresa</h2>
+            <p>
+                A HelpFlow desenvolve soluções tecnológicas robustas e acessíveis para simplificar o gerenciamento operacional de microempreendedores e pequenos estabelecimentos, proporcionando mais organização, eficiência e segurança na gestão de informações.
+            </p>
+            <a href="#produtos" class="botao">
+                Conheça nossos Serviços
+            </a>
+        </div>
+    </section>
+
+    
+    <section id="sobre" class="secao sobre-empresa">
+        <h2>Sobre a HelpFlow</h2>
+        <p class="subtitulo">
+            Tecnologia, inovação e compromisso com o crescimento do seu negócio.
+        </p>
+
+        <div class="sobre-container">
+            <div class="sobre-texto">
+                <h3>Nossa Missão</h3>
+                <p>
+                    Facilitar o dia a dia de micro e pequenos empreendedores através de ferramentas de gestão intuitivas, eficientes e de alto desempenho, eliminando a burocracia dos registros operacionais.
+                </p>
+
+                <h3>Por que escolher a HelpFlow?</h3>
+                <p>
+                    Nossa equipe foca em desenvolver sistemas sob medida que garantem integridade, segurança e agilidade para os seus dados comerciais. Acreditamos que a tecnologia de ponta deve ser acessível para impulsionar pequenos negócios rumo ao sucesso.
+                </p>
+            </div>
+            
+            <div class="sobre-card-destaque">
+                <div class="icone-destaque">🚀</div>
+                <h4>Foco em Resultados</h4>
+                <p>Dedicação em criar softwares práticos que transformam a rotina administrativa de estabelecimentos comerciais.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="produtos" class="secao secao-servicos">
+        <h2>Nossos Serviços</h2>
+
+        <p class="subtitulo">
+            Confira alguns dos serviços oferecidos pela empresa.
+        </p>
+
+        <div class="container-cards">
+            <div class="card">
+                <div class="icone">🛍️</div>
+                <h3>Cadastro de produtos</h3>
+                <p>
+                    Permite organizar informações dos produtos, como nome, código, descrição e quantidade, facilitando a consulta e a identificação dos itens.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">📝</div>
+                <h3>Registros Operacionais</h3>
+                <p>
+                    Facilita o registro das atividades diárias do estabelecimento, mantendo informações organizadas para consultas futuras.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">📊</div>
+                <h3>Relatórios e consultas</h3>
+                <p>
+                    Organiza informações sobre produtos e movimentações para facilitar o acompanhamento das operações e apoiar decisões administrativas.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">🔐</div>
+                <h3>Segurança e integridade de dados</h3>
+                <p>
+                    Prioriza a organização e a consistência dos registros, com foco na proteção das informações e na confiabilidade dos dados armazenados.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contato" class="secao contato">
+        <h2>Entre em Contato</h2>
+
+        <p class="subtitulo">
+            Tem alguma dúvida ou deseja solicitar um orçamento? Fale conosco diretamente!
+        </p>
+
+        <div class="contato-container-central">
+            <div class="informacoes">
+                <h3>Informações da Empresa</h3>
+
+                <div class="informacao-item">
+                    <span>📱</span>
+                    <div>
+                        <h4>Telefone / WhatsApp</h4>
+                        <a href="https://wa.me/5511985459663" target="_blank" rel="noopener noreferrer">
+                            (11) 985459663
+                        </a>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>📧</span>
+                    <div>
+                        <h4>E-mail</h4>
+                        <a href="mailto:contato@helpflow.com.br">
+                            contato@helpflow.com.br
+                        </a>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>
+                            Rua das Flores, 123<br>
+                            Centro, São Paulo - SP<br>
+                            CEP: 01000-279
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <p>&copy; 2026 HelpFlow. Todos os direitos reservados.</p>
+        <p>Qualidade, confiança e tecnologia para você.</p>
+    </footer>
+
 </body>
 </html>
