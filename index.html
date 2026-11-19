@@ -3,158 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help Flow | Produtos e Serviços</title>
+    <title>HelpFlow | Suporte técnico para pequenos negócios</title>
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
+    <!-- Cabeçalho com logotipo e menu de navegação -->
     <header class="header">
-        <h1><span>Help</span>Flow</h1>
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Logotipo HelpFlow">
+                <span class="logo-texto"><span>Help</span>Flow</span>
+            </a>
+        </h1>
 
         <nav>
-            <a href="#inicio">Início</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#produtos">Serviços</a>
-            <a href="#contato">Contato</a>
+            <a href="index.html" class="ativo">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
 
-    
-    <section id="inicio" class="inicio">
+    <main>
+    <!-- Banner principal -->
+    <section class="inicio">
         <div class="inicio-conteudo">
-            <h2>Soluções para você e sua empresa</h2>
+            <h2>Seu problema de TI resolvido, do chamado à solução</h2>
             <p>
-                A HelpFlow desenvolve soluções tecnológicas robustas e acessíveis para simplificar o gerenciamento operacional de microempreendedores e pequenos estabelecimentos, proporcionando mais organização, eficiência e segurança na gestão de informações.
+                A HelpFlow oferece suporte técnico e um sistema de chamados simples para micro e pequenas empresas.
+                Abra um chamado, acompanhe cada etapa do atendimento e tenha um técnico especializado cuidando do seu problema.
             </p>
-            <a href="#produtos" class="botao">
-                Conheça nossos Serviços
-            </a>
+            <a href="servicos.html" class="botao">Conheça nossos serviços</a>
         </div>
+        <img class="inicio-logo" src="img/logo.svg" alt="">
     </section>
 
-    
-    <section id="sobre" class="secao sobre-empresa">
-        <h2>Sobre a HelpFlow</h2>
-        <p class="subtitulo">
-            Tecnologia, inovação e compromisso com o crescimento do seu negócio.
-        </p>
+    <!-- Como funciona -->
+    <section class="secao secao-servicos">
+        <h2>Como funciona</h2>
+        <p class="subtitulo">Três passos entre o problema e a solução.</p>
 
-        <div class="sobre-container">
-            <div class="sobre-texto">
-                <h3>Nossa Missão</h3>
-                <p>
-                    Facilitar o dia a dia de micro e pequenos empreendedores através de ferramentas de gestão intuitivas, eficientes e de alto desempenho, eliminando a burocracia dos registros operacionais.
-                </p>
-
-                <h3>Por que escolher a HelpFlow?</h3>
-                <p>
-                    Nossa equipe foca em desenvolver sistemas sob medida que garantem integridade, segurança e agilidade para os seus dados comerciais. Acreditamos que a tecnologia de ponta deve ser acessível para impulsionar pequenos negócios rumo ao sucesso.
-                </p>
+        <div class="passos">
+            <div class="passo">
+                <span class="passo-numero">1</span>
+                <h3>Abra o chamado</h3>
+                <p>O funcionário da sua empresa descreve o problema e escolhe a categoria: rede, hardware, software ou impressora.</p>
             </div>
-            
-            <div class="sobre-card-destaque">
-                <div class="icone-destaque">🚀</div>
-                <h4>Foco em Resultados</h4>
-                <p>Dedicação em criar softwares práticos que transformam a rotina administrativa de estabelecimentos comerciais.</p>
+            <div class="passo">
+                <span class="passo-numero">2</span>
+                <h3>Um técnico assume</h3>
+                <p>O chamado é direcionado para o técnico com a especialidade certa e o status muda para "Em atendimento".</p>
+            </div>
+            <div class="passo">
+                <span class="passo-numero">3</span>
+                <h3>Problema resolvido</h3>
+                <p>Ao final, o chamado é fechado com data e hora registradas, e tudo fica no histórico da empresa.</p>
             </div>
         </div>
     </section>
 
-    
-    <section id="produtos" class="secao secao-servicos">
-        <h2>Nossos Serviços</h2>
-
-        <p class="subtitulo">
-            Confira alguns dos serviços oferecidos pela empresa.
-        </p>
+    <!-- Destaque dos principais serviços -->
+    <section class="secao">
+        <h2>Principais serviços</h2>
+        <p class="subtitulo">O essencial para manter a tecnologia do seu negócio funcionando.</p>
 
         <div class="container-cards">
             <div class="card">
-                <div class="icone">🛍️</div>
-                <h3>Cadastro de produtos</h3>
-                <p>
-                    Permite organizar informações dos produtos, como nome, código, descrição e quantidade, facilitando a consulta e a identificação dos itens.
-                </p>
+                <div class="icone">🎫</div>
+                <h3>Abertura de chamados</h3>
+                <p>Registro organizado de cada problema, sem pedidos perdidos no WhatsApp.</p>
             </div>
-
             <div class="card">
-                <div class="icone">📝</div>
-                <h3>Registros Operacionais</h3>
-                <p>
-                    Facilita o registro das atividades diárias do estabelecimento, mantendo informações organizadas para consultas futuras.
-                </p>
+                <div class="icone">📍</div>
+                <h3>Acompanhamento</h3>
+                <p>Saiba em que situação está cada chamado: aberto, em atendimento ou fechado.</p>
             </div>
-
             <div class="card">
-                <div class="icone">📊</div>
-                <h3>Relatórios e consultas</h3>
-                <p>
-                    Organiza informações sobre produtos e movimentações para facilitar o acompanhamento das operações e apoiar decisões administrativas.
-                </p>
-            </div>
-
-            <div class="card">
-                <div class="icone">🔐</div>
-                <h3>Segurança e integridade de dados</h3>
-                <p>
-                    Prioriza a organização e a consistência dos registros, com foco na proteção das informações e na confiabilidade dos dados armazenados.
-                </p>
+                <div class="icone">🧑‍🔧</div>
+                <h3>Técnicos especializados</h3>
+                <p>Equipe dividida por especialidade para resolver mais rápido.</p>
             </div>
         </div>
     </section>
 
-    
-    <section id="contato" class="secao contato">
-        <h2>Entre em Contato</h2>
-
-        <p class="subtitulo">
-            Tem alguma dúvida ou deseja solicitar um orçamento? Fale conosco diretamente!
-        </p>
-
-        <div class="contato-container-central">
-            <div class="informacoes">
-                <h3>Informações da Empresa</h3>
-
-                <div class="informacao-item">
-                    <span>📱</span>
-                    <div>
-                        <h4>Telefone / WhatsApp</h4>
-                        <a href="https://wa.me/5511985459663" target="_blank" rel="noopener noreferrer">
-                            (11) 985459663
-                        </a>
-                    </div>
-                </div>
-
-                <div class="informacao-item">
-                    <span>📧</span>
-                    <div>
-                        <h4>E-mail</h4>
-                        <a href="mailto:contato@helpflow.com.br">
-                            contato@helpflow.com.br
-                        </a>
-                    </div>
-                </div>
-
-                <div class="informacao-item">
-                    <span>📍</span>
-                    <div>
-                        <h4>Endereço</h4>
-                        <p>
-                            Rua das Flores, 123<br>
-                            Centro, São Paulo - SP<br>
-                            CEP: 01000-279
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Chamada para ação -->
+    <section class="secao chamada-acao">
+        <h2>Pronto para organizar o suporte da sua empresa?</h2>
+        <p>Fale com a nossa equipe e descubra como a HelpFlow pode ajudar.</p>
+        <a href="contato.html" class="botao">Entre em contato</a>
     </section>
+    </main>
 
-    
+    <!-- Rodapé -->
     <footer class="footer">
-        <p>&copy; 2026 HelpFlow. Todos os direitos reservados.</p>
-        <p>Qualidade, confiança e tecnologia para você.</p>
+        <p><strong>HelpFlow</strong> · Suporte técnico e gestão de chamados para pequenos negócios</p>
+        <div class="footer-links">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+        <p>contato@helpflow.com.br · (11) 3000-0000 · São Paulo - SP</p>
+        <p>&copy; 2026 HelpFlow. Empresa fictícia criada para o Projeto de Extensão em Desenvolvimento de Software - UNINOVE.</p>
     </footer>
 
 </body>

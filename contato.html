@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpFlow | Contato</title>
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho com logotipo e menu de navegação -->
+    <header class="header">
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Logotipo HelpFlow">
+                <span class="logo-texto"><span>Help</span>Flow</span>
+            </a>
+        </h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html" class="ativo">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+    <section class="topo-pagina">
+        <h2>Entre em contato</h2>
+        <p>Tem alguma dúvida ou deseja solicitar um orçamento? Fale com a gente.</p>
+    </section>
+
+    <section class="secao contato">
+        <div class="contato-container">
+            <!-- Informações de contato -->
+            <div class="informacoes">
+                <h3>Informações da empresa</h3>
+
+                <div class="informacao-item">
+                    <span>📱</span>
+                    <div>
+                        <h4>Telefone / WhatsApp</h4>
+                        <p>(11) 3000-0000</p>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>📧</span>
+                    <div>
+                        <h4>E-mail</h4>
+                        <a href="mailto:contato@helpflow.com.br">contato@helpflow.com.br</a>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>
+                            Rua das Flores, 123<br>
+                            Centro, São Paulo - SP<br>
+                            CEP: 01000-279
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao-item">
+                    <span>🕘</span>
+                    <div>
+                        <h4>Horário de atendimento</h4>
+                        <p>Segunda a sexta, das 8h às 18h</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulário de contato -->
+            <form class="formulario" id="form-contato">
+                <h3>Envie uma mensagem</h3>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Como podemos ajudar?" required></textarea>
+
+                <button type="submit" class="botao-enviar">Enviar mensagem</button>
+                <p class="mensagem-sucesso" id="mensagem-sucesso">Mensagem enviada! Em breve entraremos em contato.</p>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p><strong>HelpFlow</strong> · Suporte técnico e gestão de chamados para pequenos negócios</p>
+        <div class="footer-links">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+        <p>contato@helpflow.com.br · (11) 3000-0000 · São Paulo - SP</p>
+        <p>&copy; 2026 HelpFlow. Empresa fictícia criada para o Projeto de Extensão em Desenvolvimento de Software - UNINOVE.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

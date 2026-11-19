@@ -209,7 +209,7 @@ body {
     background-color: #eaf3f8;
 }
 
-/* Contato (Centralizado sem formulário) */
+/* Contato */
 .contato {
     background-color: #f4f7fb;
 }
@@ -339,4 +339,322 @@ body {
     .footer {
         padding: 22px 5%;
     }
+}
+/* ==========================================================================
+   Complementos para o site em 5 páginas
+   ========================================================================== */
+
+/* Logo no cabeçalho */
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 38px;
+    height: 38px;
+}
+
+/* Página atual destacada no menu */
+.header nav a.ativo {
+    color: #59c3e6;
+    border-bottom: 2px solid #59c3e6;
+    padding-bottom: 3px;
+}
+
+/* Topo das páginas internas (versão menor do banner) */
+.topo-pagina {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.topo-pagina h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.topo-pagina p {
+    color: #cbd5e1;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Banner da página inicial com logo grande */
+.inicio {
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.inicio-logo {
+    width: 220px;
+    max-width: 35%;
+}
+
+/* Passo a passo (Como funciona) */
+.passos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.passo {
+    background-color: white;
+    padding: 28px 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(18, 60, 80, 0.09);
+}
+
+.passo-numero {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #59c3e6;
+    color: #020617;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.passo h3 {
+    color: #020617;
+    margin-bottom: 8px;
+}
+
+.passo p {
+    color: #64748b;
+    font-size: 15px;
+}
+
+/* Chamada para ação */
+.chamada-acao {
+    background-color: #020617;
+    color: white;
+}
+
+.chamada-acao p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+/* Missão, visão e valores */
+.mvv {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.lista-valores {
+    list-style: none;
+}
+
+.lista-valores li {
+    color: #64748b;
+    font-size: 15px;
+    padding: 4px 0 4px 22px;
+    position: relative;
+}
+
+.lista-valores li::before {
+    content: "✔";
+    color: #59c3e6;
+    position: absolute;
+    left: 0;
+}
+
+.texto-centralizado {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #64748b;
+    text-align: left;
+}
+
+.texto-centralizado p {
+    margin-bottom: 15px;
+}
+
+/* Portfólio */
+.projeto-cliente {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #168bb5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.projeto-resultado {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e2e8f0;
+    color: #020617 !important;
+    font-weight: bold;
+}
+
+/* Depoimentos */
+.depoimentos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.depoimento {
+    background-color: #020617;
+    color: #e2e8f0;
+    padding: 28px 24px;
+    border-radius: 12px;
+    text-align: left;
+    border-left: 4px solid #59c3e6;
+}
+
+.depoimento p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.depoimento strong {
+    color: #59c3e6;
+}
+
+.depoimento span {
+    display: block;
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.aviso-ficticio {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+/* Contato com formulário */
+.contato-container {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.formulario {
+    background-color: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(18, 60, 80, 0.08);
+}
+
+.formulario h3 {
+    color: #020617;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    font-weight: bold;
+    color: #020617;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    background-color: #f8fafc;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #59c3e6;
+    background-color: white;
+}
+
+.formulario textarea {
+    resize: vertical;
+    min-height: 130px;
+}
+
+.botao-enviar {
+    background-color: #59c3e6;
+    color: #020617;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #168bb5;
+    color: white;
+}
+
+.mensagem-sucesso {
+    display: none;
+    margin-top: 15px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    background-color: #dcfce7;
+    color: #166534;
+    font-weight: bold;
+}
+
+/* Rodapé com links */
+.footer-links {
+    margin: 8px 0;
+}
+
+.footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #59c3e6;
+}
+
+/* Responsividade dos complementos */
+@media (max-width: 900px) {
+    .passos, .mvv, .depoimentos, .contato-container {
+        grid-template-columns: 1fr;
+    }
+
+    .inicio-logo {
+        display: none;
+    }
+}
+
+/* Cores do nome no logo: "Help" em azul e "Flow" em branco */
+.header h1 .logo-texto {
+    color: white;
+}
+
+.header h1 .logo-texto span {
+    color: #59c3e6;
 }
